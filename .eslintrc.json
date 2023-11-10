@@ -17,12 +17,11 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "globals": {
-          "_": "readonly"
-      },
+ 
     "rules": {
       "cypress/no-unnecessary-waiting": "off",
       "no-unused-vars": "off",
+      "no-undef": "warn",
       "cypress/unsafe-to-chain-command": "off"
     }
 }
