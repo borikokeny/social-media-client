@@ -4,3 +4,4 @@
 #formatted commit-hooks
 #formatted babel
 #unit tests for login and logout
+#e2e tests
