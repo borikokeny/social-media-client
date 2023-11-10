@@ -10,9 +10,7 @@
           "env": { "jest": true },
           "plugins": ["jest"],
           "extends": ["plugin:jest/recommended"],
-          "rules": { "jest/prefer-expect-assertions": "off",
-                     "no-unused-vars": "off"
-                    }
+          "rules": { "jest/prefer-expect-assertions": "off" }
         }
       ],
     "parserOptions": {
@@ -20,5 +18,6 @@
         "sourceType": "module"
     },
     "rules": {
+      // "no-unused-vars": "off",
     }
 }
