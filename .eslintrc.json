@@ -17,6 +17,9 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "globals": {
+          "_": "readonly"
+      },
     "rules": {
       "cypress/no-unnecessary-waiting": "off",
       "no-unused-vars": "off",
